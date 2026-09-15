@@ -1,0 +1,16 @@
+---
+title: "Project Ouroboros"
+subtitle: "A Novel of Runaway AI, Invisible Debt, and the Architecture of Survival"
+author: "Clark Ngo"
+rights: "© 2026 Clark Ngo. All rights reserved."
+lang: en-US
+documentclass: book
+fontsize: 11pt
+geometry: margin=1in
+toc: true
+toc-depth: 2
+numbersections: false
+colorlinks: true
+linkcolor: NavyBlue
+urlcolor: NavyBlue
+---
