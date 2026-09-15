@@ -1,0 +1,65 @@
+/* Minimal reading stylesheet for the Pandoc HTML build of Project Ouroboros. */
+
+body {
+  max-width: 42em;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 6rem;
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #1a1a1a;
+  background: #fdfcf9;
+}
+
+h1, h2, h3 {
+  font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.25;
+}
+
+h1 { font-size: 1.9rem; margin-top: 3rem; }
+h2 { font-size: 1.4rem; margin-top: 2.5rem; border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; }
+
+#TOC {
+  background: #f3f1ea;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  margin: 2rem 0;
+}
+
+p { margin: 0 0 1.1em; }
+
+hr {
+  border: none;
+  text-align: center;
+  margin: 2.5em 0;
+}
+hr::before {
+  content: "◆ ◆ ◆";
+  color: #999;
+  letter-spacing: 0.5em;
+}
+
+blockquote {
+  border-left: 3px solid #ccc;
+  margin-left: 0;
+  padding-left: 1.2em;
+  color: #444;
+}
+
+code, pre {
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  background: #f0efe9;
+}
+
+pre { padding: 1em; border-radius: 6px; overflow-x: auto; }
+
+a { color: #1d4e89; }
+
+@media (prefers-color-scheme: dark) {
+  body { background: #16161a; color: #e6e6e6; }
+  #TOC { background: #222226; }
+  code, pre { background: #222226; }
+  a { color: #7fb3ff; }
+  h2 { border-bottom-color: #333; }
+}
