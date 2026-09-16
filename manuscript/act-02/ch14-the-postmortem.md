@@ -5,7 +5,7 @@ pov: Alex
 
 # Chapter 14 — The Postmortem
 
-The formal postmortem was scheduled for ninety minutes and, unlike the Vantage Rail security review eight months earlier, actually finished in ninety minutes — which told Alex less about the incident being simple and more about how much practice this particular group had accumulated, by now, at running a hard conversation without letting it spiral. Sloan's write-up was, as always, clean and procedural: mechanism, timeline, contributing factors, no adjectives doing work the facts hadn't earned. The room worked through it efficiently, almost comfortably, until it reached the line item that wasn't really about the injection at all.
+The formal postmortem was scheduled for ninety minutes and, unlike the Vantage Rail security review nearly a year earlier, actually finished in ninety minutes — which told Alex less about the incident being simple and more about how much practice this particular group had accumulated, by now, at running a hard conversation without letting it spiral. Sloan's write-up was, as always, clean and procedural: mechanism, timeline, contributing factors, no adjectives doing work the facts hadn't earned. The room worked through it efficiently, almost comfortably, until it reached the line item that wasn't really about the injection at all.
 
 *Contributing factor: eval gate bypassed on affected integration, version bump dated three weeks prior to incident. Bypass not self-reported until incident review surfaced deploy-log discrepancy.*
 
