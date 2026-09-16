@@ -32,7 +32,7 @@ project-ouroboros/
 
 Chapter files are named `chNN-slug.md` and read in lexical order within each act; the Makefile relies on that ordering to assemble the full manuscript.
 
-Acts I and II are drafted in full (chapters 1–18, front matter `status: draft`). Act III (chapters 19–24) is currently outline stubs (`status: outline`) marking where the story goes next. See each chapter's front matter for current status.
+The manuscript is drafted in full — all 24 chapters across all three acts (front matter `status: draft`), roughly 40,000 words.
 
 ## Building locally
 

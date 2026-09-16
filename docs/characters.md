@@ -106,16 +106,18 @@ Working reference for voice, motivation, and arc consistency across the manuscri
 - **Harmon** — Lead investor / board member (surname not yet used on the page; keep it that way unless a chapter needs it).
 - **Priya** — Platform engineer, works closely with Devon; approves/reviews his early prompt changes (Ch. 3).
 - **Marcus** — Platform engineer, pulled half-time onto audit tooling in Ch. 8–9.
-- **Oskar** — Internal-tools team lead; the Slack-integration scope gap in Ch. 10.
+- **Oskar** — Internal-tools team lead; the Slack-integration scope gap in Ch. 10. Returns in Ch. 21 to acknowledge Sloan was right — the character with the cleanest small redemption arc besides Sloan's own.
 - **Farah** — Product engineer, pushes back on circuit-breaker thresholds in Ch. 16 (stand-in for the velocity-tax objection Claire herself voiced in Act I).
+- **Nadia Okonkwo** — Joins Devon's team in Act III (Ch. 20). The living proof of Devon's SPOF status actually being dismantled: catches a near-miss the eval suite hadn't covered yet (Ch. 20), handles the Ch. 23 tail event as primary on-call without Devon's involvement, and is shown training the next hire by Ch. 24.
 - **The company** — **Meridian**. Sells the "autonomous operations" product referenced throughout `docs/system-architecture.md`.
 
 **Customer accounts (recurring):**
 - **Halden Logistics** — the Ch. 1 incident account; ops director **Renata Ibitola**. Expands post-incident (Ch. 7); return-policy staleness incident.
-- **Vantage Rail** — rail operator, the Ch. 5/6 tool-grant deal; VP of Operations **Marisol Ibarra**. First launch under the new discipline. Unaffected by Ch. 17's outage — fully migrated architecture.
+- **Vantage Rail** — rail operator, the Ch. 5/6 tool-grant deal; VP of Operations **Marisol Ibarra**. First launch under the new discipline. Unaffected by Ch. 17's outage — fully migrated architecture. Renewal in Ch. 24 takes eleven minutes, a deliberate callback to the original six-week negotiation.
 - **Farrow & Kline** — small logistics reseller; the contradictory-tier incident that opens Ch. 8 and gives "context swamp" its name.
-- **Corvid Capital** — mid-sized asset manager; the financial-services account introduced Ch. 11. Highest-stakes account in the book. Claire wins it with the honest, scoped pitch (Ch. 11); Devon's skipped eval gate (Ch. 12) is exposed by the Ch. 13 injection postmortem, not caused by it; queue backlog fallout in Ch. 17; relaunch in Ch. 22; tail-event proof point in Ch. 23.
+- **Corvid Capital** — mid-sized asset manager; the financial-services account introduced Ch. 11. Highest-stakes account in the book. Claire wins it with the honest, scoped pitch (Ch. 11); Devon's skipped eval gate (Ch. 12) is exposed by the Ch. 13 injection postmortem, not caused by it; queue backlog fallout in Ch. 17; Ch. 22 is the account's joint technical-review audit (not a relaunch pitch — Corvid's own engineers stress-test the finished architecture directly); renewed at a higher tier by Ch. 24.
 - **Callahan Supply** — Meridian's oldest pilot account (predates Halden by roughly a year). Stable and unremarkable for two years, therefore never prioritized for migration onto the post-Halden architecture — the exact gap that causes Ch. 17's outage. Fully migrated afterward as part of Ch. 18's board-funded standing practice.
+- **Briarwell Health** — new pilot account, onboarded entirely under the finished Act III architecture (no legacy debt grandfathered in). The Ch. 23 tail-event account — deliberately a customer the reader has no incident history with, to show the discipline generalizes rather than only working on accounts the team has personally nursed.
 
 ## Voice & POV Notes
 
