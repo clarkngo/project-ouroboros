@@ -23,7 +23,7 @@ She was logged into the incident channel before her laptop had finished waking u
 [02:15] devon: oh no
 ```
 
-*Oh no* was not, technically, an incident-channel status update Meridian had a runbook for, but in eighteen months of working with Devon, Alex had learned that it was more informative than most of the ones they did have. She typed **on my way, give me the shape of it** and started making coffee one-handed while the machine caught up to her.
+*Oh no* was not, technically, an incident-channel status update Meridian had a runbook for, but in fourteen months of working with Devon, Alex had learned that it was more informative than most of the ones they did have. She typed **on my way, give me the shape of it** and started making coffee one-handed while the machine caught up to her.
 
 The shape of it, when Devon finally produced it, was this: a customer named Halden Logistics — mid-sized, East Coast, six months into piloting Meridian's support-automation tier — had a ticket come in about a duplicated invoice. Not an unusual ticket. The kind of thing the Loop handled hundreds of times a day: look up the invoice, confirm the duplication against the billing system, issue a credit, close the ticket, move on. Fast, correct, the whole reason Halden had signed the pilot in the first place.
 
