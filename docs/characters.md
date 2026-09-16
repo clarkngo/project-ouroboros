@@ -105,15 +105,20 @@ Working reference for voice, motivation, and arc consistency across the manuscri
 - **Sloan Ferreira** — Head of Security & Risk.
 - **Harmon** — Lead investor / board member (surname not yet used on the page; keep it that way unless a chapter needs it).
 - **Priya** — Platform engineer, works closely with Devon; approves/reviews his early prompt changes (Ch. 3).
+- **Marcus** — Platform engineer, pulled half-time onto audit tooling in Ch. 8–9.
+- **Oskar** — Internal-tools team lead; the Slack-integration scope gap in Ch. 10.
+- **Farah** — Product engineer, pushes back on circuit-breaker thresholds in Ch. 16 (stand-in for the velocity-tax objection Claire herself voiced in Act I).
 - **The company** — **Meridian**. Sells the "autonomous operations" product referenced throughout `docs/system-architecture.md`.
 
 **Customer accounts (recurring):**
 - **Halden Logistics** — the Ch. 1 incident account; ops director **Renata Ibitola**. Expands post-incident (Ch. 7); return-policy staleness incident.
-- **Vantage Rail** — rail operator, the Ch. 5/6 tool-grant deal; VP of Operations **Marisol Ibarra**. First launch under the new discipline.
-- **The financial-services account** (Act II–III) — introduced Ch. 11, not yet named a specific company; assign a name before drafting Ch. 11 and update this entry. Highest-stakes account in the book; near-departure in Ch. 17, relaunch in Ch. 22, tail-event proof point in Ch. 23.
+- **Vantage Rail** — rail operator, the Ch. 5/6 tool-grant deal; VP of Operations **Marisol Ibarra**. First launch under the new discipline. Unaffected by Ch. 17's outage — fully migrated architecture.
+- **Farrow & Kline** — small logistics reseller; the contradictory-tier incident that opens Ch. 8 and gives "context swamp" its name.
+- **Corvid Capital** — mid-sized asset manager; the financial-services account introduced Ch. 11. Highest-stakes account in the book. Claire wins it with the honest, scoped pitch (Ch. 11); Devon's skipped eval gate (Ch. 12) is exposed by the Ch. 13 injection postmortem, not caused by it; queue backlog fallout in Ch. 17; relaunch in Ch. 22; tail-event proof point in Ch. 23.
+- **Callahan Supply** — Meridian's oldest pilot account (predates Halden by roughly a year). Stable and unremarkable for two years, therefore never prioritized for migration onto the post-Halden architecture — the exact gap that causes Ch. 17's outage. Fully migrated afterward as part of Ch. 18's board-funded standing practice.
 
 ## Voice & POV Notes
 
-- Primary POV is close-third on Alex for the majority of chapters; occasional close-third chapters shift to Devon (production-floor chaos) or Claire (boardroom/commercial pressure) to widen the aperture. Victor and Sloan are never POV characters — they are seen from outside, which preserves Victor's mystique and Sloan's flatness-as-honesty.
+- Primary POV is close-third on Alex for the majority of chapters; frequent close-third chapters shift to Devon (production-floor chaos) or Claire (boardroom/commercial pressure) to widen the aperture. Starting in Act II (Ch. 10), Sloan also becomes a POV character as her role widens from a single negotiation to company-wide practice — a deliberate escalation, not a slip; keep her sections as flat and procedural in narration as her dialogue always was. Victor remains the one character never given a POV chapter — he is seen only from outside, which preserves his mystique until his Act III backstory reveal. Ch. 17 (the outage) is the one deliberately multi-POV chapter in the book, split into named sections (Alex / Devon / Sloan / Claire) to convey scale during the climax — an exception to the one-POV-per-chapter norm, not a new pattern to repeat elsewhere.
 - Technical concepts should always enter through a character's stakes, never as exposition for its own sake — Victor's lectures work because someone in the room needs the answer *right now*.
 - Avoid making Claire a strawman and Sloan a prophet without cost — both should be right about something the other undervalues for most of the book.
