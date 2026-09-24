@@ -1,0 +1,8 @@
+% Inserted via --include-in-header so the pixel cover is PDF page 1,
+% before \maketitle and the TOC. COVERIMG is replaced by the Makefile
+% with an absolute path so XeLaTeX can find the file from Pandoc's temp dir.
+\AtBeginDocument{%
+  \thispagestyle{empty}%
+  \noindent\includegraphics[height=0.95\textheight,keepaspectratio]{COVERIMG}%
+  \clearpage
+}

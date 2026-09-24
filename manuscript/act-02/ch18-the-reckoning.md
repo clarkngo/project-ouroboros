@@ -5,6 +5,8 @@ pov: Claire
 
 # Chapter 18 — The Reckoning
 
+![Chapter 18 — The Reckoning](artwork/chapters/ch18-the-reckoning.png){.chapter-plate}
+
 The board meeting got moved up, which Claire had expected the moment Harmon's assistant emailed to reschedule it a full ten days earlier than planned, and which she understood, reading the email twice before she let herself feel anything about it, as its own kind of message: the Callahan incident had traveled further and faster than a two-hour, mostly-contained queue backup should have, by any purely technical accounting of its severity. It had traveled because Corvid's evaluation committee had a seat, one degree removed, on a conversation that eventually reached an investor who also sat on Meridian's board, and because "financial-services account nearly lost after an AI incident" was a sentence that traveled at a speed no engineering severity rating could keep pace with, however contained the actual damage had been.
 
 She spent the ten days doing something she hadn't done, in quite this way, in the two years she'd been at Meridian: she asked Alex, Devon, and Sloan to come into the room with her, not to brief her beforehand so she could carry the story alone, but to actually be there, together, in front of the board, as themselves.

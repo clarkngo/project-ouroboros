@@ -5,6 +5,8 @@ pov: Devon
 
 # Chapter 16 — The Circuit Breaker
 
+![Chapter 16 — The Circuit Breaker](artwork/chapters/ch16-the-circuit-breaker.png){.chapter-plate}
+
 The mandate that came out of the Corvid postmortem was blunt enough that Devon had half expected more resistance than it actually got: every deploy pipeline for every agent at Meridian, customer-facing or internal, would run through a single, shared gate before anything shipped — schema validation on tool calls, a passing eval run against that integration's suite, and, new since the postmortem, a hard circuit-breaker framework generalized from the step limit he'd hand-written at 4 a.m. eleven months earlier into something any team could adopt without reinventing it from scratch.
 
 He'd been given ownership of the last piece, which felt, walking into the first working session, like being handed back something of his own that had grown considerably since he'd last held it.

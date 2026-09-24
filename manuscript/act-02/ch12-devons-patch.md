@@ -5,6 +5,8 @@ pov: Devon
 
 # Chapter 12 — Devon's Patch
 
+![Chapter 12 — Devon's Patch](artwork/chapters/ch12-devons-patch.png){.chapter-plate}
+
 The Corvid Capital timeline was honest, which did not make it easy. Six weeks to stand up a scoped reconciliation-exception agent, a materiality-threshold approval gate, and — the part that actually fell on Devon's desk, underneath every other piece of it — a first real eval suite for a task category the company had never built for before, financial exception handling being nothing at all like a support ticket about a late shipment. He had, by his own count, built maybe a third of it by the start of week five, and the honest, narrower scope Claire had fought for was starting to feel, from inside the work itself, exactly as tight as the aggressive one would have.
 
 He'd stopped minding the eval gate weeks ago, which surprised him a little every time he noticed it — the four-month regression from Chapter 9 had done something to his relationship with the whole discipline that no amount of Alex's careful framing back in his first week had quite managed on its own. He believed in it now, not as a rule imposed on him but as a thing that had, once, concretely, caught something he would have missed. That belief did not make Thursday of week five any less brutal.

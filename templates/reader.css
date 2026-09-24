@@ -1,0 +1,397 @@
+/* In-browser chapter reader for Project Ouroboros (GitHub Pages). */
+
+:root {
+  --reader-bg: #0f1218;
+  --reader-surface: #171b24;
+  --reader-text: #e8e4dc;
+  --reader-muted: #9aa3b2;
+  --reader-accent: #6fd3a0;
+  --reader-copper: #c48a4a;
+  --reader-border: #2a3140;
+  --reader-serif: Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  --reader-sans: -apple-system, "Helvetica Neue", Arial, sans-serif;
+  --reader-max: 42em;
+  --reader-chrome: 3.25rem;
+}
+
+html.reader-booting body {
+  background: #0f1218;
+}
+
+html.reader-booting body > *:not(script) {
+  visibility: hidden;
+}
+
+html.reader-active,
+html.reader-active body {
+  height: 100%;
+  margin: 0;
+  background: var(--reader-bg);
+  color: var(--reader-text);
+}
+
+html.reader-active body {
+  font-family: var(--reader-serif);
+  font-size: 1.08rem;
+  line-height: 1.7;
+  max-width: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Hide pandoc chrome until the reader mounts; then reader manages visibility. */
+html.reader-active body > *:not(.reader-shell) {
+  display: none !important;
+}
+
+.reader-shell {
+  display: grid;
+  grid-template-rows: var(--reader-chrome) 1fr var(--reader-chrome);
+  height: 100dvh;
+  width: 100%;
+}
+
+.reader-top,
+.reader-bottom {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0 0.9rem;
+  background: var(--reader-surface);
+  border-color: var(--reader-border);
+  border-style: solid;
+  z-index: 5;
+}
+
+.reader-top {
+  border-bottom-width: 1px;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  justify-content: space-between;
+}
+
+.reader-bottom {
+  border-top-width: 1px;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  justify-content: space-between;
+}
+
+.reader-brand {
+  font-family: var(--reader-sans);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--reader-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.reader-progress {
+  font-family: var(--reader-sans);
+  font-size: 0.85rem;
+  color: var(--reader-accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.reader-btn {
+  appearance: none;
+  border: 1px solid var(--reader-border);
+  background: transparent;
+  color: var(--reader-text);
+  font-family: var(--reader-sans);
+  font-size: 0.85rem;
+  padding: 0.4rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  line-height: 1.2;
+}
+
+.reader-btn:hover:not(:disabled),
+.reader-btn:focus-visible {
+  border-color: var(--reader-accent);
+  color: var(--reader-accent);
+  outline: none;
+}
+
+.reader-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.reader-btn.primary {
+  border-color: var(--reader-accent);
+  color: var(--reader-bg);
+  background: var(--reader-accent);
+}
+
+.reader-btn.primary:hover:not(:disabled) {
+  filter: brightness(1.05);
+  color: var(--reader-bg);
+}
+
+.reader-stage {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: auto;
+  padding: 1.5rem 1.25rem 2.5rem;
+}
+
+.reader-page {
+  max-width: var(--reader-max);
+  margin: 0 auto;
+}
+
+.reader-page[hidden] {
+  display: none !important;
+}
+
+.reader-page h1 {
+  font-family: var(--reader-sans);
+  font-size: 1.75rem;
+  line-height: 1.25;
+  margin: 0 0 1rem;
+  color: var(--reader-text);
+  border: 0;
+}
+
+.reader-page h2 {
+  font-family: var(--reader-sans);
+  font-size: 1.25rem;
+  margin: 2rem 0 0.75rem;
+  border-bottom: 1px solid var(--reader-border);
+  padding-bottom: 0.3rem;
+  color: var(--reader-text);
+}
+
+.reader-page p {
+  margin: 0 0 1.1em;
+}
+
+.reader-page a {
+  color: #8ec1ff;
+}
+
+.reader-page img.cover,
+.reader-page img.chapter-plate {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 1.5rem;
+  border: 1px solid var(--reader-border);
+}
+
+.reader-page img.cover {
+  margin-bottom: 1.75rem;
+}
+
+.reader-page pre,
+.reader-page code {
+  font-family: "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  background: #12161f;
+}
+
+.reader-page pre {
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  border: 1px solid var(--reader-border);
+}
+
+.reader-page blockquote {
+  border-left: 3px solid var(--reader-border);
+  margin-left: 0;
+  padding-left: 1.2em;
+  color: var(--reader-muted);
+}
+
+.reader-page hr {
+  border: none;
+  text-align: center;
+  margin: 2.5em 0;
+}
+
+.reader-page hr::before {
+  content: "◆ ◆ ◆";
+  color: var(--reader-muted);
+  letter-spacing: 0.5em;
+}
+
+.reader-page .copyright {
+  color: var(--reader-muted);
+  font-size: 0.95rem;
+}
+
+/* Cover / landing */
+.reader-landing {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.reader-landing .reader-title {
+  font-family: var(--reader-sans);
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  margin: 0 0 0.4rem;
+  letter-spacing: 0.02em;
+}
+
+.reader-landing .reader-subtitle {
+  color: var(--reader-muted);
+  font-size: 1rem;
+  max-width: 28em;
+  margin: 0 auto 0.75rem;
+  line-height: 1.45;
+}
+
+.reader-landing .reader-author {
+  color: var(--reader-accent);
+  font-family: var(--reader-sans);
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 1.75rem;
+}
+
+.reader-landing-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.reader-hint {
+  font-family: var(--reader-sans);
+  font-size: 0.8rem;
+  color: var(--reader-muted);
+  margin-top: 1.25rem;
+}
+
+.reader-hint kbd {
+  font-family: inherit;
+  border: 1px solid var(--reader-border);
+  border-bottom-width: 2px;
+  border-radius: 3px;
+  padding: 0.1rem 0.35rem;
+  font-size: 0.75rem;
+  color: var(--reader-text);
+}
+
+.reader-nav-label {
+  font-family: var(--reader-sans);
+  font-size: 0.8rem;
+  color: var(--reader-muted);
+  text-align: center;
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* TOC drawer */
+.reader-toc-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 20;
+}
+
+.reader-toc-backdrop[hidden] {
+  display: none !important;
+}
+
+.reader-toc {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: min(22rem, 92vw);
+  height: 100dvh;
+  background: var(--reader-surface);
+  border-left: 1px solid var(--reader-border);
+  z-index: 21;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(0);
+}
+
+.reader-toc[hidden] {
+  display: none !important;
+}
+
+.reader-toc-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--reader-border);
+  font-family: var(--reader-sans);
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--reader-muted);
+}
+
+.reader-toc-list {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0 2rem;
+  overflow: auto;
+}
+
+.reader-toc-list button {
+  appearance: none;
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: 0;
+  border-left: 3px solid transparent;
+  color: var(--reader-text);
+  font-family: var(--reader-sans);
+  font-size: 0.92rem;
+  padding: 0.65rem 1rem;
+  cursor: pointer;
+  line-height: 1.35;
+}
+
+.reader-toc-list button:hover,
+.reader-toc-list button:focus-visible {
+  background: #1d2330;
+  outline: none;
+}
+
+.reader-toc-list button.is-current {
+  border-left-color: var(--reader-accent);
+  color: var(--reader-accent);
+}
+
+.reader-toc-list .toc-cover {
+  color: var(--reader-muted);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 640px) {
+  .reader-brand {
+    max-width: 40vw;
+  }
+
+  .reader-stage {
+    padding: 1.15rem 1rem 2rem;
+  }
+
+  .reader-nav-label {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reader-stage {
+    scroll-behavior: auto;
+  }
+}

@@ -5,6 +5,8 @@ pov: Sloan
 
 # Chapter 10 — Unbounded Tools
 
+![Chapter 10 — Unbounded Tools](artwork/chapters/ch10-unbounded-tools.png){.chapter-plate}
+
 Sloan Ferreira kept a spreadsheet nobody had asked her to keep, which was, in her experience, the only kind of spreadsheet that ever ended up mattering. It lived in a folder called `tool-surface-inventory`, and it had started, eight months earlier, as a personal habit born of a specific discomfort she'd never fully articulated to anyone above her — a running list of every tool grant she knew about, which team owned it, what it could touch, and whether anyone had formally reviewed its scope since the day it shipped. By the week of the Vantage Rail negotiation, back when the whole company still thought of her primarily as the person who'd slowed that deal down for six weeks, the sheet had eighteen rows. By the week she finally got real headcount and real mandate to act on it — a direct consequence, she suspected without ever being told outright, of Alex quietly deciding after the Vantage Rail episode that Sloan's judgment was worth institutionalizing rather than merely tolerating — it had sixty-one.
 
 Forty-three of those sixty-one, she now knew for certain, she had found herself. Not because anyone had hidden them from her. Because nobody had thought to tell her they existed, which was, in its way, a worse problem than concealment — concealment implied someone had made a decision. This was simply the ordinary entropy of a fast-growing engineering org, each team solving its own immediate problem with whatever access was easiest to grant, and nobody's job, until now, had been to look at the whole surface at once.

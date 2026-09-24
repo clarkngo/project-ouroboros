@@ -5,6 +5,8 @@ pov: Alex
 
 # Chapter 19 — Breaking the Tail
 
+![Chapter 19 — Breaking the Tail](artwork/chapters/ch19-breaking-the-tail.png){.chapter-plate}
+
 The board's mandate translated, within a week, into a name, a budget line, and a deadline, in that order, which was about the order Alex had learned to expect anything at this company to actually become real. Claire called it the Continuity Program in the first version of the charter document, a name Alex found herself quietly grateful for — not dramatic, not a rebrand of the last eleven months as some kind of heroic turnaround, just a plain description of what it was: the work of making sure what had been built kept getting finished, everywhere, permanently, instead of stopping the moment the most recent fire went out.
 
 The deadline was the part that gave the whole thing its shape. Corvid's evaluation committee, after the Callahan incident's aftershock reached them secondhand, had not pulled the account — Claire's honesty in the moment had bought exactly the credibility it was meant to buy — but had attached a condition to staying through the contract's renewal window: a joint technical review, ninety days out, in which Corvid's own engineering team would audit the finished state of the architecture directly, not take Meridian's word for it. Ninety days. Alex had sat with that number for a full afternoon before she let herself feel anything about it beyond the flat, useful fact of its existence — not enough time to build everything from nothing, which was fine, because nothing was not what they were building from. Enough time, if she was honest and precise about what was actually still missing, to finish it.

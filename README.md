@@ -8,13 +8,24 @@ The story is grounded in real distributed-systems, cybernetics, and software-eng
 
 ## Reading online
 
-The compiled manuscript is published via GitHub Pages on every push to `main`. See the repository's Pages URL (Settings → Pages) once the first deploy completes.
+The GitHub Pages site is a Lithos-style companion Codex: home, novel hub, per-chapter pages with pixel art, characters, architecture, and glossary. Progress is saved in `localStorage`. Published on every push to `main`: https://clarkngo.github.io/project-ouroboros/
+
+### Reader keyboard (chapter pages)
+
+| Key | Action |
+|---|---|
+| `→` `j` `PageDown` | Next chapter |
+| `←` `k` `PageUp` | Previous chapter |
+| `T` | Novel index |
 
 ## Repository structure
 
 ```text
 project-ouroboros/
 ├── .github/workflows/publish.yml   # Pandoc build -> GitHub Pages, on push to main
+├── artwork/
+│   ├── covers/                     # Ebook cover candidates (pixel cover is current)
+│   └── chapters/                   # 24 pixel chapter plates
 ├── manuscript/
 │   ├── act-01/                     # Act I — The Mandate
 │   ├── act-02/                     # Act II — The Swamp
@@ -25,7 +36,12 @@ project-ouroboros/
 │   └── technical-glossary.md
 ├── templates/
 │   ├── metadata.yaml                # Pandoc title/author/format metadata
-│   └── manuscript.css               # Stylesheet for the HTML build
+│   ├── cover.md / copyright.md      # HTML/EPUB front matter
+│   ├── manuscript.css               # Base stylesheet for single-file HTML
+│   ├── site/                        # Companion Codex CSS/JS
+│   └── epub.css                     # Stylesheet for the EPUB build
+├── tools/
+│   └── build_site.py                # GitHub Pages companion site builder
 ├── Makefile                        # Local Pandoc orchestration (html/pdf/epub/site)
 └── README.md
 ```
@@ -36,13 +52,16 @@ The manuscript is drafted in full — all 24 chapters across all three acts (fro
 
 ## Building locally
 
-Requires [Pandoc](https://pandoc.org); PDF output additionally requires a LaTeX engine (`brew install pandoc basictex`, or use [Tectonic](https://tectonic-typesetting.github.io/)).
+Requires [Pandoc](https://pandoc.org). PDF output requires **XeLaTeX** (`brew install pandoc basictex`, then install the `xetex` package if `xelatex` is missing). Do not silently switch PDF engines.
+
+The pixel cover and chapter plates are included in all three formats.
 
 ```bash
-make html   # build/project-ouroboros.html — single-page HTML, fastest for proofreading
-make pdf    # build/project-ouroboros.pdf
-make epub   # build/project-ouroboros.epub
-make site   # site/ — the same HTML build staged for GitHub Pages
+make html   # build/project-ouroboros.html — single-file manuscript build
+make pdf    # build/project-ouroboros.pdf — US Letter, cover + plates
+make epub   # build/project-ouroboros.epub — reflowable, cover + plates
+make site   # site/ — companion Codex for GitHub Pages
+SITE_BASE=/ make site   # local preview without /project-ouroboros/ prefix
 make clean
 ```
 
@@ -58,4 +77,4 @@ Full profiles in [docs/characters.md](docs/characters.md).
 
 ## License
 
-© 2026 Clark Ngo. All rights reserved.
+© 2026 Clark Ngo. All rights reserved. See [LICENSE](LICENSE).

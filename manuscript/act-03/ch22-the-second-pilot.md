@@ -5,6 +5,8 @@ pov: Claire
 
 # Chapter 22 — The Second Pilot
 
+![Chapter 22 — The Second Pilot](artwork/chapters/ch22-the-second-pilot.png){.chapter-plate}
+
 Corvid's engineering team sent three people for the technical review, which Claire had expected, and a fourth, unannounced, who turned out to be their head of platform risk, which she had not — a small, deliberate signal, she understood immediately, that this was not a courtesy audit. Corvid wanted to actually know, not be reassured.
 
 She let Alex run most of the day, which had stopped feeling, sometime in the last several months, like a concession of control and started feeling like simply the correct allocation of who should be talking. Claire's job today was framing, context, the occasional translation when Alex's precision ran ahead of what the room needed spelled out — not the pitch itself. The pitch, this time, was the architecture, laid bare, exactly as built, for people whose actual job was to find the gap in it if one existed.

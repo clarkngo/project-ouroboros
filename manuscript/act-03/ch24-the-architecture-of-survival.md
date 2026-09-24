@@ -5,6 +5,8 @@ pov: Alex
 
 # Chapter 24 — The Architecture of Survival
 
+![Chapter 24 — The Architecture of Survival](artwork/chapters/ch24-the-architecture-of-survival.png){.chapter-plate}
+
 Victor told her the rest of the switching-system story on a Thursday afternoon, nearly two months after Briarwell, with no particular occasion attached to it — no incident, no board meeting, just the ordinary quiet of a late afternoon in an office that had, somewhere in the last year and a half, stopped organizing itself entirely around the next emergency. She'd asked, finally, plainly, the way she'd learned to ask most things by now instead of waiting for someone to volunteer them. He'd answered the way he answered most things, unhurried, precise, no more or less dramatic than the facts themselves warranted.
 
 "I was younger than Devon is now," he said, "working on the exception-handling layer of a regional telecom switch — real physical infrastructure, later a software layer over it, routing calls the automated system couldn't resolve on its own to a bank of human operators. We knew, the way everyone always knows in the abstract, that the operator queue could back up under load. We had the theory. Queueing math isn't new; it wasn't new then either. What we didn't have was the actual instrumentation to watch it happen in real time, because building that instrumentation was expensive, and unglamorous, and the average case looked fine for years, the way Callahan looked fine for two years, the way most systems that are quietly accumulating a debt nobody's watching look fine right up until the day they don't."

@@ -5,7 +5,9 @@ author: "Clark Ngo"
 rights: "© 2026 Clark Ngo. All rights reserved."
 lang: en-US
 documentclass: book
+classoption: oneside
 fontsize: 11pt
+papersize: letter
 geometry: margin=1in
 toc: true
 toc-depth: 2
@@ -13,4 +15,7 @@ numbersections: false
 colorlinks: true
 linkcolor: NavyBlue
 urlcolor: NavyBlue
+header-includes:
+  - \usepackage{graphicx}
+  - \setkeys{Gin}{width=\linewidth,keepaspectratio}
 ---

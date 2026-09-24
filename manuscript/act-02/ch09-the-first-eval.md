@@ -5,6 +5,8 @@ pov: Devon
 
 # Chapter 9 — The First Eval
 
+![Chapter 9 — The First Eval](artwork/chapters/ch09-the-first-eval.png){.chapter-plate}
+
 Claire's two headcount slots turned into one and a half, in practice, which was still more than Devon had expected and considerably less than he'd hoped: a platform engineer named Marcus got pulled over half-time to build out the audit tooling into something real, and the other slot became, after a week of scheduling gymnastics nobody fully explained to him, Devon's own time reallocated — officially, on paper, forty percent of it, ring-fenced from the on-call rotation for the first time in fourteen months. He understood, reading the calendar invite that made it official, that Alex had spent some amount of political capital he'd never see the receipts for to get that number to hold.
 
 He spent the first three days of it staring at his own patch list.

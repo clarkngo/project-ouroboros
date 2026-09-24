@@ -1,0 +1,6 @@
+---
+# TinyTeX-1 ships babel without language files. Unset lang for PDF so
+# the default template does not load babel's english/american options.
+# EPUB/HTML keep lang: en-US from metadata.yaml.
+lang:
+---

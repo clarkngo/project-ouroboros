@@ -5,6 +5,8 @@ pov: Claire
 
 # Chapter 2 — Boardroom Mandate
 
+![Chapter 2 — Boardroom Mandate](artwork/chapters/ch02-boardroom-mandate.png){.chapter-plate}
+
 Claire Whitfield had learned to read a boardroom the way sailors read weather, and the room at 10 a.m. was a good one: attentive without being anxious, three of the five board members leaning forward instead of back, Harmon from the lead investor's seat already nodding along to slide four before she'd finished narrating slide three. She had built this deck the way she built all of them — a story with a climbing line in it — and for thirty-one minutes it was working exactly the way stories were supposed to work.
 
 Then she got to slide eleven, and Alex Chen, who had said exactly four words since sitting down, said a fifth and sixth: "Can I add something."

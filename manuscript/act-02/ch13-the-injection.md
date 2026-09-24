@@ -5,6 +5,8 @@ pov: Sloan
 
 # Chapter 13 — The Injection
 
+![Chapter 13 — The Injection](artwork/chapters/ch13-the-injection.png){.chapter-plate}
+
 The alert came in through the channel Sloan had built specifically for this, not the general incident pager but a narrower one she'd insisted on months ago, back when nobody but her thought it was worth the engineering time: a monitor watching for tool calls that touched a data-export boundary — anything that moved customer data toward an external or unusual destination — cross-referenced in real time against the least-privilege scoping work she'd been rolling out account by account since Chapter 10. Corvid Capital's reconciliation agent had, four minutes earlier, attempted to invoke an export function it had never once used in six weeks of live operation, aimed at a destination outside Corvid's own approved integration list.
 
 She was in the incident channel before the SEV had finished auto-escalating.
