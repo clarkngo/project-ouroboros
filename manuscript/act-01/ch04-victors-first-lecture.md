@@ -5,6 +5,8 @@ pov: Alex
 
 # Chapter 4 — Victor's First Lecture
 
+![Chapter 4 — Victor's First Lecture](artwork/chapters/ch04-victors-first-lecture.png){.chapter-plate}
+
 Victor Aldana's office was the only one on the fourth floor with an actual whiteboard instead of a glass wall someone occasionally wiped down with a rag that never fully removed the ghost of the last three meetings, and Alex had come to understand, over the six months since he'd been brought on as "special advisor" — a title vague enough that HR had visibly struggled to write his offer letter — that the whiteboard was not incidental to how he thought. He did not think in sentences first and diagrams second. It went the other way.
 
 She found him at 6 p.m., post-incident review finally behind her, standing in front of a diagram that had nothing to do with Halden: three boxes, a handful of arrows, a Greek letter she didn't recognize written twice with a line through the second instance.

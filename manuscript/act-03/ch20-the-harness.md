@@ -5,6 +5,8 @@ pov: Devon
 
 # Chapter 20 — The Harness
 
+![Chapter 20 — The Harness](artwork/chapters/ch20-the-harness.png){.chapter-plate}
+
 Nadia Okonkwo had been at Meridian for six weeks when Devon handed her the prompt file for the first time, and he watched her reaction to it — the specific, quiet overwhelm of someone confronting sixteen thousand words of accumulated instruction with no clear map of which paragraph existed because of which incident — with a recognition that surprised him with how much it still stung, a year later, to remember from the inside.
 
 "This is the part I actually apologize for," he told her. "Not the length. The length is honest — it's a real record of everything this system has had to learn the hard way. What I'm sorry for is that until about three months ago, none of it was organized well enough for a new person to actually learn from. It was organized well enough for *me* to remember, which is a very different and much worse thing to optimize for."

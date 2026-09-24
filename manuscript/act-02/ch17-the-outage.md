@@ -5,6 +5,8 @@ pov: multiple — Alex, Devon, Sloan, Claire
 
 # Chapter 17 — The Outage
 
+![Chapter 17 — The Outage](artwork/chapters/ch17-the-outage.png){.chapter-plate}
+
 **I. Alex**
 
 The alert came in at 11:20 on a Tuesday morning, which was almost worse than 2 a.m. would have been, because it meant there was no quiet building to drive into, no empty office to think in — just the ordinary daytime churn of the whole company already awake and working, about to find out all at once instead of catching up to it after the fact.

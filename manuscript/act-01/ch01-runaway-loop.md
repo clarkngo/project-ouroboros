@@ -5,6 +5,8 @@ pov: Alex
 
 # Chapter 1 — Runaway Loop
 
+![Chapter 1 — Runaway Loop](artwork/chapters/ch01-runaway-loop.png){.chapter-plate}
+
 The page came in at 2:14 a.m., which was how Alex Chen knew, before she'd even found her glasses, that it was going to be bad. Meridian's alerting had a taxonomy of urgency baked into delivery time as much as into severity: things that could wait for standup arrived as Slack messages with a yellow dot. Things that couldn't wait for a human to be awake arrived as a phone call that overrode Do Not Disturb, which meant someone — or, more precisely, something — had already decided the situation didn't care what time it was.
 
 She read the page twice before she trusted it.

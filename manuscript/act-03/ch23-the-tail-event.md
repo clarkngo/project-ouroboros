@@ -5,6 +5,8 @@ pov: Alex
 
 # Chapter 23 — The Tail Event
 
+![Chapter 23 — The Tail Event](artwork/chapters/ch23-the-tail-event.png){.chapter-plate}
+
 The page came in at 1:52 a.m., seven weeks after Corvid's engineering team had driven away from a day of trying and failing to find a reason to say no, and Alex was reaching for her glasses before she'd fully processed why the specific timing of it felt like the ground tilting slightly under a year of hard-won progress — not because anything about the hour was unusual, on-call incidents didn't respect business hours any more than they ever had, but because some old, half-buried part of her had apparently been waiting, quietly, for exactly this kind of page to prove that none of the last year had actually changed anything.
 
 **[SEV-2] briarwell-health-svc: circuit breaker triggered, escalated to exception queue**

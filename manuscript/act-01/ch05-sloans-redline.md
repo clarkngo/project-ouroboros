@@ -5,6 +5,8 @@ pov: Alex
 
 # Chapter 5 — Sloan's Redline
 
+![Chapter 5 — Sloan's Redline](artwork/chapters/ch05-sloans-redline.png){.chapter-plate}
+
 The security review for Vantage Rail's expanded tool grant was scheduled for thirty minutes and ran to ninety, which Alex had privately expected the moment she saw who'd been put on the invite, because a thirty-minute slot was Claire's team's estimate of how long it should take to get a yes, and Sloan Ferreira had never once, in Alex's eighteen months of working alongside her, let a meeting's scheduled length imply anything about how long a real answer would take.
 
 "Walk me through the requested grant again," Sloan said, "slowly, because I want it on the record exactly as written, not as summarized."

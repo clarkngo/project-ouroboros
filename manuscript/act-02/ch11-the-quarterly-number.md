@@ -5,6 +5,8 @@ pov: Claire
 
 # Chapter 11 — The Quarterly Number
 
+![Chapter 11 — The Quarterly Number](artwork/chapters/ch11-the-quarterly-number.png){.chapter-plate}
+
 Corvid Capital was not a company Claire had gone looking for. It was a company that had come to her, three weeks into the quarter, through a channel partner who described the opportunity in the specific breathless register of someone who knew exactly how much it would matter to her number: a mid-sized asset manager, back-office reconciliation running almost entirely on manual review, willing to commit to a twelve-month contract at a price that would, on its own, close out the quarter's target with room to spare, if — and Claire had heard enough of these sentences by now to know the "if" was always where the deal actually lived — Meridian could support autonomous resolution on reconciliation exceptions at a volume and a latency their current pilot architecture had never been asked to handle.
 
 She sat with the number for a full day before she brought it to Alex, which was itself a change from a version of herself six months younger, who would have brought it to Alex already half-sold and looking for validation rather than counsel. She brought it, instead, with the actual shape of the tradeoff already visible to her, because she'd learned, across Halden and Vantage Rail and Farrow & Kline, to see that shape before anyone else pointed it out to her.

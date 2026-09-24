@@ -5,6 +5,8 @@ pov: Sloan
 
 # Chapter 21 — Sloan's Gate
 
+![Chapter 21 — Sloan's Gate](artwork/chapters/ch21-sloans-gate.png){.chapter-plate}
+
 The request landed in Sloan's queue on a Monday morning, filed correctly, through the process that had not existed at all fourteen months earlier and had existed only as a six-to-eight-week bottleneck eight months before that: a new tool integration, request filed by Oskar's team — the same team, the same engineer, whose Slack-integration scope gap had nearly cost Sloan a genuinely bad week back in Chapter 10. This one wanted write access to a scheduling system for internal support-staff shift swaps, a task shaped, if she squinted, almost exactly like the Vantage Rail maintenance-window grant that had taken six weeks of manual negotiation to resolve a year earlier.
 
 She ran it through the pipeline the way she now ran everything: the schema-validation layer checked the requested tool grant against the task type Oskar's team had declared and flagged, automatically, in under a minute, that the requested credential was broader than the declared task needed — full write access to the scheduling system, when the actual use case only ever required creating and approving shift-swap requests specifically. The system didn't reject the request. It routed it back to Oskar's team with the exact narrower scope it would accept instead, machine-generated, no human judgment call required to produce the correction.

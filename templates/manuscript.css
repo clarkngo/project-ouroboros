@@ -19,6 +19,24 @@ h1, h2, h3 {
 h1 { font-size: 1.9rem; margin-top: 3rem; }
 h2 { font-size: 1.4rem; margin-top: 2.5rem; border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; }
 
+img.cover,
+img.chapter-plate {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 1.75rem;
+}
+
+img.cover {
+  margin: 0 auto 2.5rem;
+}
+
+.copyright {
+  margin: 2rem 0 3rem;
+  color: #444;
+  font-size: 0.95rem;
+}
+
 #TOC {
   background: #f3f1ea;
   border-radius: 6px;

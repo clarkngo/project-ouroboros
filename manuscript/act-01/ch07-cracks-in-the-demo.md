@@ -5,6 +5,8 @@ pov: Devon
 
 # Chapter 7 — Cracks in the Demo
 
+![Chapter 7 — Cracks in the Demo](artwork/chapters/ch07-cracks-in-the-demo.png){.chapter-plate}
+
 The Halden expansion call was supposed to be easy, which in Devon's experience was the exact category of call that never was.
 
 It made a certain grim sense that Halden would be the account to expand fastest after the incident — Claire had explained it to him once, in the patient tone she used when she suspected an engineer was about to be offended by a sales insight, that a customer who watches a vendor catch and fix its own mistake fast and transparently often trusts that vendor *more* than one who's never had a visible failure, because now they've actually seen what happens when something goes wrong instead of taking it on faith. Eleven weeks after the 2 a.m. page, Halden's ops director, a clipped, competent woman named Renata Ibitola, was on a call to greenlight tripling the Loop's ticket volume across two more of Halden's regional support queues, and had asked, reasonably, for a live walkthrough first.

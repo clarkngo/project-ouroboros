@@ -5,6 +5,8 @@ pov: Claire
 
 # Chapter 6 — The Pilot Customer
 
+![Chapter 6 — The Pilot Customer](artwork/chapters/ch06-the-pilot-customer.png){.chapter-plate}
+
 Six weeks was not a long time to build a human-approval gate, an adversarial test harness, and a scoped credential system from nothing, and Claire spent most of them the way she spent most stretches of her calendar during a live deal — half-present in every meeting that wasn't this one, doing the particular math sales did in the backs of their heads at all times, the running tally of what could still go wrong between now and signature. But it held. Sloan's harness shipped in nine days, not the promised fourteen, mostly because — Claire gathered secondhand, from the tone of the engineering standup notes she'd started actually reading instead of skimming — Sloan had been building most of it already, on her own time, for eight months, waiting for exactly this kind of leverage to get it prioritized.
 
 The Vantage Rail launch, when it finally happened, was the best kind of anticlimax.

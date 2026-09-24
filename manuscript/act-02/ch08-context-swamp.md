@@ -5,6 +5,8 @@ pov: Alex
 
 # Chapter 8 — Context Swamp
 
+![Chapter 8 — Context Swamp](artwork/chapters/ch08-context-swamp.png){.chapter-plate}
+
 The second one arrived four days after Halden, while Alex and Devon were still elbow-deep in the first, which told her something about the shape of the problem before either of them had said a word about it out loud: a genuinely new failure would have waited its turn. This one didn't feel new. It felt like the same water table, rising somewhere else.
 
 It was a small account, a logistics reseller called Farrow & Kline, three hundred tickets a month, the kind of customer nobody would have flown to Fort Worth for. A support agent told a customer their account was ineligible for expedited shipping — flatly, confidently, citing an account-tier restriction — and then, ninety seconds later in the same conversation, when the customer pushed back, cited the opposite restriction to justify a different denial. Not a contradiction a customer would necessarily catch. This one did, because she worked in logistics herself and knew her own contract terms better than the system explaining them to her did.

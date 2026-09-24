@@ -5,6 +5,8 @@ pov: Alex
 
 # Chapter 15 — Queueing Theory
 
+![Chapter 15 — Queueing Theory](artwork/chapters/ch15-queueing-theory.png){.chapter-plate}
+
 "I want to bring Claire to the next one of these," Alex had said to Victor, the week after the postmortem, and had felt, saying it, a small private satisfaction at how unremarkable the sentence had become to say out loud — a year ago she'd have thought twice before putting Claire in a room with Victor's whiteboard, worried about the translation cost. She didn't worry about it anymore. "The exception-cache idea keeps coming up as the thing we haven't built yet, and I think she needs to hear the actual mechanics of why 'just add a human reviewer' isn't automatically the safe answer, in a form she can push back on, not one she just has to trust me on."
 
 So it was the three of them, this time, in Victor's office, the whiteboard wiped clean and waiting.
