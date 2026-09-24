@@ -170,7 +170,7 @@ def layout(
   </main>
   <footer class="site-footer">
     <p>Project Ouroboros — companion site. Read the manuscript at <a href="{href('novel/')}">/novel</a>. Lore is sourced from <code>/docs</code>.</p>
-    <p class="footer-note">© 2026 Clark Ngo. All rights reserved.</p>
+    <p class="footer-note">Built by <a href="https://www.linkedin.com/in/clarkngo/" rel="noopener noreferrer" target="_blank">Clark Ngo</a>. © 2026 Clark Ngo. All rights reserved.</p>
   </footer>
 </body>
 </html>

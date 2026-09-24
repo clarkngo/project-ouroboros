@@ -152,6 +152,16 @@ code {
   margin: 0;
 }
 
+.footer-note a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.footer-note a:hover {
+  color: var(--copper);
+  text-decoration: underline;
+}
+
 .site-footer p {
   margin: 0;
 }
